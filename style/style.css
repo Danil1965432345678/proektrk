@@ -1,0 +1,1804 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/) no-repeat;
+	font-family:Skellyman ;
+}
+@font-face {
+  font-family: "Skellyman";
+  src: url("../fonts/ofont.ru_Skellyman.ttf");
+}
+.br{
+	display: none;
+}
+.adaptive{
+	display: flex;
+	justify-content: center;
+}
+.img{
+    width: 1200px;
+    height: 695px;
+	background: url(../img/rkmap.jpg) no-repeat;
+	background-size: cover;
+	background-position: 80% 30%;
+	background-size: 180%;
+	padding-top: 2%;
+	border: 3px solid black;
+ }
+.head{
+	width: 80%;
+	height: 60px;
+	border: 3px solid black;
+	margin-left: 10%;
+	border-radius: 10px;
+	background: white;
+}
+.head_nazvanie{
+	font-size: 250%;
+	text-align: center;
+}
+.Mazoley_Alash_Hana{
+	width: 4%;
+	height: 90px;
+    border-radius: 50px;
+    margin-left: 26%;
+    margin-top: -24%;
+    text-align: center;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    padding-top: 0.1%;
+}
+.Mazoley_Alash_Hana_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -35.5%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+
+}
+.Mazoley_Alash_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.Mazoley_Alash_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.Mazoley_Alash_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/Mazoley_Alash_Hana.jpg)no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.Mazoley_Alash_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 98%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.Mazoley_Alash_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.myzei{
+	width: 4%;
+	height: 90px;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 49.2%;
+    margin-top: -20%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.myzei_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -23%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	position: relative;
+}
+.myzei_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.myzei_nazvanie{
+font-size: 270%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.myzei_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/myzei.jpg)no-repeat;
+	background-size: cover;
+	background-position: 46% 20%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.myzei_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 95%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.myzei_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.mavzoleybyxalziray{
+	width: 4%;
+	height: 90px;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 51%;
+    margin-top: -5.3%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.mavzoleybyxalziray_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -25.3%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+}
+.mavzoleybyxalziray_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.mavzoleybyxalziray_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.mavzoleybyxalziray_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/mavzoleybyxalziray.jpg)no-repeat;
+	background-size: cover;
+	background-position: 46% 20%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.mavzoleybyxalziray_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 97%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.mavzoleybyxalziray_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.MavzoleyDombayl{
+	width: 4%;
+	height: 90px;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 29%;
+    margin-top: 2%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.MavzoleyDombayl_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -34.8%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+}
+.MavzoleyDombayl_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.MavzoleyDombayl_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.MavzoleyDombayl_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/MavzoleyDombayl.jpg)no-repeat;
+	background-size: cover;
+	background-position: 38% 20%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.MavzoleyDombayl_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 87%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.MavzoleyDombayl_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.MavzoleyDjuchixana{
+	width: 4%;
+	height: 90px;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 27%;
+    margin-top: -3%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.MavzoleyDjuchixana_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -39.5%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+}
+.MavzoleyDjuchixana_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.MavzoleyDjuchixana_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.MavzoleyDjuchixana_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/MavzoleyDjuchixana.jpeg)no-repeat;
+	background-size: 260%;
+	background-position: 47% 20%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.MavzoleyDjuchixana_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 94.2%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.MavzoleyDjuchixana_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.kunanbaykaji{
+	width: 4%;
+	height: 90px;
+    background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 65%;
+    margin-top: -21%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.kunanbaykaji_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -26%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	z-index: 3;
+}
+.kunanbaykaji_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.kunanbaykaji_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.kunanbaykaji_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/kunanbaykaji.jpg)no-repeat;
+	background-size: 260%;
+	background-position: 47% 20%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.kunanbaykaji_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 90%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.kunanbaykaji_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.KarLag{
+	width: 4%;
+	height: 90px;
+	background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 48%;
+    margin-top: -7.5%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.KarLag_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -26%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	z-index: 3;
+}
+.KarLag_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.KarLag_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.KarLag_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/KarLag.jpg)no-repeat;
+	background-size: 245%;
+	background-position:50% 30%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.KarLag_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 84.9%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.KarLag_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.gorabektayta{
+	width: 4%;
+	height: 90px;
+	background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left:60%;
+    margin-top: 9%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.gorabektayta_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -42.7%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	z-index: 3;
+}
+.gorabektayta_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.gorabektayta_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.gorabektayta_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/gorabektayta.png)no-repeat;
+	background-size: 210%;
+	background-position:50% 30%;
+	border-radius:20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.gorabektayta_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 97%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.gorabektayta_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.balxah{
+	width: 4%;
+	height: 90px;
+	background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 60%;
+    margin-top: -4.5%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.balxah_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -45.9%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	z-index: 3;
+}
+.balxah_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.balxah_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.balxah_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/balxah.jpg)no-repeat;
+	background-size: 190%;
+	background-position:50% 30%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.balxah_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 80%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.balxah_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	text-align: center;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.Akmeshit{
+	width: 4%;
+	height: 90px;
+	background: url(../img/zvezda.png) no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    margin-left: 41%;
+    margin-top: -27%;
+    text-align: center;
+    padding-top: 0.1%;
+}
+.Akmeshit_opn{
+	background: white;
+	width: 80%;
+	height: 590px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -26.5%;
+    position: relative;
+    display: none;
+   	border: 3px solid black;
+   	z-index: 3;
+}
+.Akmeshit_zak{
+	width: 5%;
+	height: 50px;
+	background: url(../img/zak.png) no-repeat;
+	background-size: cover;
+	float: right;
+}
+.Akmeshit_nazvanie{
+font-size: 300%;
+text-align: center;
+height: 50px;
+margin-top:2%;
+}
+.Akmeshit_img{
+	width: 40%;
+	height: 460px;
+	background: url(../img/Akmeshit.webp)no-repeat;
+	background-size: 230%;
+	background-position:50% 30%;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-top: 3%;
+	float: left;
+}
+.Akmeshit_text{
+	width: 40%;
+	height: 370px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 3%;
+	float: right;
+	font-size: 88%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.Akmeshit_button{
+	width: 40%;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 10%;
+	margin-top: 1%;
+	float: right;
+	font-size: 200%;
+	border: 1px solid black;
+	padding: 1% 1% 1% 1%;
+}
+.metki{
+width: 21%;
+height: 240px;
+background: white;
+border-radius: 20px;
+padding: 1% 1% 1% 1%;
+font-size: 90%;
+margin-left: 0%;
+margin-top: 30%;
+border: 3px solid black;
+}
+.one{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.two{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.ther{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.for{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.faif{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.six{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.seven{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.engt{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.nain{
+	margin-top: 15%;
+	font-size: 150%;
+}
+.ten{
+	margin-top: 15%;
+	font-size: 150%;
+}
+			@media (max-width:1200px){
+.img{
+	width: 1000px;
+	height: 700px;
+}
+.head_nazvanie{
+	font-size: 210%;
+	padding-top: 0.5%;
+}
+.Mazoley_Alash_Hana{
+	margin-top: -32.5%;
+}
+.Mazoley_Alash_Hana_opn{
+	margin-top: -39.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.Mazoley_Alash_text{
+	height: 377px;
+	font-size: 91%;
+}
+.Mazoley_Alash_button{
+	font-size: 180%;
+}
+.Mazoley_Alash_zak{
+	background-size: 123%;
+}
+.myzei{
+margin-top: -22.5%;
+}
+.myzei_opn{
+	margin-top: -25.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.myzei_nazvanie{
+	font-size: 220%;
+}
+.myzei_text{
+	height: 377px;
+	font-size: 85.5%;
+}
+.myzei_button{
+	font-size: 180%;
+}
+.myzei_zak{
+	background-size: 123%;
+}
+.mavzoleybyxalziray{
+	margin-top: -7%;
+	height: 40px;
+}
+.mavzoleybyxalziray_opn{
+	margin-top: -23%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.mavzoleybyxalziray_nazvanie{
+	font-size: 220%;
+}
+.mavzoleybyxalziray_text{
+	height: 377px;
+	font-size: 85.5%;
+}
+.mavzoleybyxalziray_button{
+	font-size: 180%;
+}
+.mavzoleybyxalziray_zak{
+	background-size: 123%;
+}
+.MavzoleyDombayl{
+	margin-top: 6.5%;
+}
+.MavzoleyDombayl_opn{
+	margin-top: -38.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.MavzoleyDombayl_nazvanie{
+	font-size: 220%;
+}
+.MavzoleyDombayl_text{
+	height: 377px;
+	font-size: 81.5%;
+}
+.MavzoleyDombayl_button{
+	font-size: 180%;
+}
+.MavzoleyDombayl_zak{
+	background-size: 123%;
+}
+.MavzoleyDjuchixana{
+	margin-top: -4%;
+}
+.MavzoleyDjuchixana_opn{
+	margin-top: -43.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.MavzoleyDjuchixana_nazvanie{
+	font-size: 220%;
+}
+.MavzoleyDjuchixana_text{
+	height: 377px;
+	font-size: 85%;
+}
+.MavzoleyDjuchixana_button{
+	font-size: 180%;
+}
+.MavzoleyDjuchixana_zak{
+	background-size: 123%;
+}
+.kunanbaykaji{
+		margin-top: -24%;
+}
+.kunanbaykaji_opn{
+	margin-top: -28.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.kunanbaykaji_nazvanie{
+	font-size: 220%;
+}
+.kunanbaykaji_text{
+	height: 377px;
+	font-size: 82%;
+}
+.kunanbaykaji_button{
+	font-size: 180%;
+}
+.kunanbaykaji_zak{
+	background-size: 123%;
+}
+.KarLag{
+		margin-top: -8%;
+}
+.KarLag_opn{
+	margin-top: -29.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.KarLag_nazvanie{
+	font-size: 300%;
+}
+.KarLag_text{
+	height: 377px;
+	font-size: 75.62%;
+}
+.KarLag_button{
+	font-size: 180%;
+}
+.KarLag_zak{
+	background-size: 123%;
+}
+.KarLag_img{
+	background-size: 260%;
+}
+.gorabektayta{
+		margin-top: 8%;
+}
+.gorabektayta_opn{
+	margin-top: -46.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.gorabektayta_nazvanie{
+	font-size: 300%;
+}
+.gorabektayta_text{
+	height: 377px;
+	font-size: 88%;
+}
+.gorabektayta_button{
+	font-size: 180%;
+}
+.gorabektayta_zak{
+	background-size: 123%;
+}
+.gorabektayta_img{
+	background-size: 260%;
+}
+.balxah{
+		margin-top: -6%;
+}
+.balxah_opn{
+	margin-top: -50%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.balxah_nazvanie{
+	font-size: 300%;
+}
+.balxah_text{
+	height: 377px;
+	font-size: 74.2%;
+}
+.balxah_button{
+	font-size: 180%;
+}
+.balxah_zak{
+	background-size: 123%;
+}
+.balxah_img{
+	background-size: 260%;
+}
+.Akmeshit{
+		margin-top: -29%;
+}
+.Akmeshit_opn{
+	margin-top: -29.5%;
+	height: 595px;
+	padding-right: 1%;
+	width: 79%;
+}
+.Akmeshit_nazvanie{
+	font-size: 300%;
+}
+.Akmeshit_text{
+	height: 377px;
+	font-size: 80%;
+}
+.Akmeshit_button{
+	font-size: 180%;
+}
+.Akmeshit_zak{
+	background-size: 123%;
+}
+.Akmeshit_img{
+	background-size: 260%;
+}
+.metki{
+	margin-top: 37%;
+}
+.one{
+	margin-top: 5%;
+}
+.two{
+	margin-top: 5%;
+}
+.ther{
+	margin-top: 5%;
+}
+.for{
+	margin-top: 5%;
+}
+.faif{
+	margin-top: 5%;
+}
+.six{
+	margin-top: 5%;
+}
+.seven{
+	margin-top: 5%;
+}
+.engt{
+	margin-top: 5%;
+}
+.nain{
+	margin-top: 5%;
+}
+.ten{
+	margin-top: 5%;
+}
+			}
+@media (max-width:1000px){
+.img{
+	width: 768px;
+	height: 450px;
+}
+.head{
+	height: 40px;
+}
+.head_nazvanie{
+	font-size: 160%;
+	padding-top: 0.5%;
+}
+.Mazoley_Alash_Hana{
+	margin-top: -24.5%;
+}
+.Mazoley_Alash_nazvanie{
+font-size: 240%;
+}
+.Mazoley_Alash_Hana_opn{
+	margin-top: -39.2%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.Mazoley_Alash_text{
+	height: 195px;
+	font-size: 60%;
+}
+.Mazoley_Alash_img{
+	height: 270px;
+}
+.Mazoley_Alash_button{
+	font-size: 150%;
+}
+.Mazoley_Alash_zak{
+	background-size: 123%;
+}
+.myzei{
+margin-top: -25.5%;
+}
+.myzei_opn{
+	margin-top: -25.5%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.myzei_text{
+	height: 195px;
+	font-size: 55%;
+	margin-top: 0%;
+}
+.myzei_nazvanie{
+font-size: 160%;
+}
+.myzei_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.myzei_button{
+	font-size: 150%;
+}
+.myzei_zak{
+	background-size: 123%;
+}
+.mavzoleybyxalziray{
+	margin-top: -10%;
+	height: 40px;
+}
+.mavzoleybyxalziray_opn{
+	margin-top: -21%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.mavzoleybyxalziray_text{
+	height: 195px;
+	font-size: 55%;
+	margin-top: 0%;
+}
+.mavzoleybyxalziray_nazvanie{
+font-size: 160%;
+}
+.mavzoleybyxalziray_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.mavzoleybyxalziray_button{
+	font-size: 150%;
+}
+.mavzoleybyxalziray_zak{
+	background-size: 123%;
+}
+.MavzoleyDombayl{
+	margin-top: 5.7%;
+}
+.MavzoleyDombayl_opn{
+	margin-top: -38.5%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.MavzoleyDombayl_text{
+	height: 195px;
+	font-size: 52%;
+	margin-top: 0%;
+}
+.MavzoleyDombayl_nazvanie{
+font-size: 160%;
+}
+.MavzoleyDombayl_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.MavzoleyDombayl_button{
+	font-size: 150%;
+}
+.MavzoleyDombayl_zak{
+	background-size: 123%;
+}
+.MavzoleyDjuchixana{
+	margin-top: -8%;
+}
+.MavzoleyDjuchixana_opn{
+	margin-top: -42%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.MavzoleyDjuchixana_text{
+	height: 195px;
+	font-size: 53%;
+	margin-top: 0%;
+}
+.MavzoleyDjuchixana_nazvanie{
+font-size: 160%;
+}
+.MavzoleyDjuchixana_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.MavzoleyDjuchixana_button{
+	font-size: 150%;
+}
+.MavzoleyDjuchixana_zak{
+	background-size: 123%;
+}
+.kunanbaykaji{
+		margin-top: -24%;
+}
+.kunanbaykaji_opn{
+	margin-top: -30%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.kunanbaykaji_text{
+	height: 195px;
+	font-size: 52.5%;
+	margin-top: 0%;
+}
+.kunanbaykaji_nazvanie{
+font-size: 160%;
+}
+.kunanbaykaji_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.kunanbaykaji_button{
+	font-size: 150%;
+}
+.kunanbaykaji_zak{
+	background-size: 123%;
+}
+.KarLag{
+		margin-top: -13%;
+}
+.KarLag_opn{
+	margin-top: -29%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.KarLag_text{
+	height: 195px;
+	font-size: 49%;
+	margin-top: 0%;
+}
+.KarLag_nazvanie{
+font-size: 160%;
+}
+.KarLag_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.KarLag_button{
+	font-size: 150%;
+}
+.KarLag_zak{
+	background-size: 123%;
+}
+.gorabektayta{
+		margin-top: 5%;
+}
+.gorabektayta_opn{
+	margin-top: -46%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.gorabektayta_text{
+	height: 195px;
+	font-size: 55%;
+	margin-top: 0%;
+}
+.gorabektayta_nazvanie{
+font-size: 160%;
+}
+.gorabektayta_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.gorabektayta_button{
+	font-size: 150%;
+}
+.gorabektayta_zak{
+	background-size: 123%;
+}
+.balxah{
+		margin-top: -9%;
+}
+.balxah_opn{
+	margin-top: -48.5%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.balxah_text{
+	height: 195px;
+	font-size: 46.5%;
+	margin-top: 0%;
+}
+.balxah_nazvanie{
+font-size: 160%;
+}
+.balxah_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.balxah_button{
+	font-size: 150%;
+}
+.balxah_zak{
+	background-size: 123%;
+}
+.Akmeshit{
+		margin-top: -30%;
+}
+.Akmeshit_opn{
+	margin-top: -30.5%;
+	height: 370px;
+	padding-right: 1%;
+	width: 79%;
+}
+.Akmeshit_text{
+	height: 195px;
+	font-size: 52%;
+	margin-top: 0%;
+}
+.Akmeshit_nazvanie{
+font-size: 160%;
+}
+.Akmeshit_img{
+	height: 270px;
+	margin-top: 0%;
+}
+.Akmeshit_button{
+	font-size: 150%;
+}
+.Akmeshit_zak{
+	background-size: 123%;
+}
+.metki{
+	margin-top: 19%;
+	font-size: 80%;
+}
+.one{
+	margin-top: 5%;
+	font-size:120%;
+}
+.two{
+	margin-top: 5%;
+	font-size:120%;
+}
+.ther{
+	margin-top: 5%;
+	font-size:120%;
+}
+.for{
+	margin-top: 5%;
+	font-size:120%;
+}
+.faif{
+	margin-top: 5%;
+	font-size:120%;
+}
+.six{
+	margin-top: 5%;
+	font-size:120%;
+}
+.seven{
+	margin-top: 5%;
+	font-size:120%;
+}
+.engt{
+	margin-top: 5%;
+	font-size:120%;
+}
+.nain{
+	margin-top: 5%;
+	font-size:120%;
+}
+.ten{
+	margin-top: 5%;
+	font-size:120%;
+}
+}
+@media (max-width:768px){
+.img{
+	width: 488px;
+	height: 300px;
+	border: 1.5px solid black;
+}
+.head{
+	height: 45px;
+	width: 60%;
+	margin-left: 20%;
+	border: 1.5px solid black;
+	border-radius: 10px;
+}
+.head_nazvanie{
+	font-size: 90%;
+	padding-top: 0.5%;
+}
+.Mazoley_Alash_Hana{
+	margin-top: -38.5%;
+}
+.Mazoley_Alash_text_adaptive{
+	display: none;
+}
+.Mazoley_Alash_nazvanie{
+font-size: 130%;
+}
+.Mazoley_Alash_Hana_opn{
+	margin-top: -50.5%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.Mazoley_Alash_text{
+	height: 144px;
+	font-size: 40%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.Mazoley_Alash_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.Mazoley_Alash_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.Mazoley_Alash_zak{
+	background-size: 123%;
+}
+.myzei{
+margin-top: -37%;
+}
+.myzei_text_adaptive{
+	display: none;
+}
+.myzei_nazvanie{
+font-size: 80%;
+}
+.myzei_opn{
+	margin-top: -37%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.myzei_text{
+	height: 144px;
+	font-size: 40%;
+	margin-top: -8%;
+	border-radius: 10px;
+}
+.myzei_img{
+	height: 180px;
+	margin-top: -8%;
+	border-radius: 10px;
+}
+.myzei_button{
+	height: 19px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.myzei_zak{
+	background-size: 123%;
+}
+.mavzoleybyxalziray{
+	margin-top: -21.5%;
+	height: 40px;
+}
+.mavzoleybyxalziray_text_adaptive{
+	display: none;
+}
+.mavzoleybyxalziray_nazvanie{
+font-size: 130%;
+}
+.mavzoleybyxalziray_opn{
+	margin-top: -25.9%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.mavzoleybyxalziray_text{
+	height: 144px;
+	font-size: 34%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.mavzoleybyxalziray_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.mavzoleybyxalziray_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.mavzoleybyxalziray_zak{
+	background-size: 123%;
+}
+.MavzoleyDombayl{
+	margin-top: 1.7%;
+}
+.MavzoleyDombayl_text_adaptive{
+	display: none;
+}
+.MavzoleyDombayl_nazvanie{
+font-size: 130%;
+}
+.MavzoleyDombayl_opn{
+	margin-top: -51.5%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.MavzoleyDombayl_text{
+	height: 144px;
+	font-size: 28%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.MavzoleyDombayl_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.MavzoleyDombayl_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.MavzoleyDombayl_zak{
+	background-size: 123%;
+}
+.MavzoleyDjuchixana{
+	margin-top: -22%;
+}
+.MavzoleyDjuchixana_text_adaptive{
+	display: none;
+}
+.MavzoleyDjuchixana_nazvanie{
+font-size: 130%;
+}
+.MavzoleyDjuchixana_opn{
+	margin-top: -53.5%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.MavzoleyDjuchixana_text{
+	height: 144px;
+	font-size: 24%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.MavzoleyDjuchixana_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.MavzoleyDjuchixana_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.MavzoleyDjuchixana_zak{
+	background-size: 123%;
+}
+.kunanbaykaji{
+		margin-top: -36%;
+}
+.kunanbaykaji_text_adaptive{
+	display: none;
+}
+.kunanbaykaji_nazvanie{
+font-size: 130%;
+}
+.kunanbaykaji_opn{
+	margin-top: -41%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.kunanbaykaji_text{
+	height: 144px;
+	font-size: 30%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.kunanbaykaji_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.kunanbaykaji_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.kunanbaykaji_zak{
+	background-size: 123%;
+}
+.KarLag{
+		margin-top: -25%;
+}
+.KarLag_text_adaptive{
+	display: none;
+}
+.KarLag_nazvanie{
+font-size: 130%;
+}
+.KarLag_opn{
+	margin-top: -39.5%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.KarLag_text{
+	height: 144px;
+	font-size:1%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.KarLag_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+	background-size: 270%;
+}
+.KarLag_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.KarLag_zak{
+	background-size: 123%;
+}
+.gorabektayta{
+		margin-top: -6%;
+}
+.gorabektayta_text_adaptive{
+	display: none;
+}
+.gorabektayta_nazvanie{
+font-size: 130%;
+}
+.gorabektayta_opn{
+	margin-top: -57.5%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.gorabektayta_text{
+	height: 144px;
+	font-size: 27%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.gorabektayta_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.gorabektayta_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.gorabektayta_zak{
+	background-size: 123%;
+}
+.balxah{
+		margin-top: -21%;
+}
+.balxah_text_adaptive{
+	display: none;
+}
+.balxah_nazvanie{
+font-size: 130%;
+}
+.balxah_opn{
+	margin-top: -60%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.balxah_text{
+	height: 144px;
+	font-size: 1%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.balxah_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.balxah_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.balxah_zak{
+	background-size: 123%;
+}
+.Akmeshit{
+		margin-top: -43%;
+}
+.Akmeshit_text_adaptive{
+	display: none;
+}
+.Akmeshit_nazvanie{
+font-size: 130%;
+}
+.Akmeshit_opn{
+	margin-top: -41%;
+	height: 235px;
+	padding-right: 1%;
+	width: 79%;
+	border: 1.5px solid black;
+}
+.Akmeshit_text{
+	height: 144px;
+	font-size: 30%;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.Akmeshit_img{
+	height: 180px;
+	margin-top: -5%;
+	border-radius: 10px;
+}
+.Akmeshit_button{
+	height: 20px;
+	font-size: 70%;
+	border-radius: 10px;
+}
+.Akmeshit_zak{
+	background-size: 123%;
+}
+.metki{
+	height: 120px;
+	margin-top: 32%;
+	font-size: 39%;
+	border: 1.5px solid black;
+	border-radius: 10px;
+}
+.one{
+	margin-top: 5%;
+	font-size:60%;
+}
+.two{
+	margin-top: 5%;
+	font-size:60%;
+}
+.ther{
+	margin-top: 5%;
+	font-size:60%;
+}
+.for{
+	margin-top: 5%;
+	font-size:60%;
+}
+.faif{
+	margin-top: 5%;
+	font-size:60%;
+}
+.six{
+	margin-top: 5%;
+	font-size:60%;
+}
+.seven{
+	margin-top: 5%;
+	font-size:60%;
+}
+.engt{
+	margin-top: 5%;
+	font-size:60%;
+}
+.nain{
+	margin-top: 5%;
+	font-size:60%;
+}
+.ten{
+	margin-top: 5%;
+	font-size:60%;
+}
+.br{
+	display: block;
+}
+}
